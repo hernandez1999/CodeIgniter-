@@ -8,13 +8,13 @@
 <body>
    
     <form method="post" action="" class="form">
-            <label for="estacion">Title</label>
-            <input type="text" class="form-control" name="estacion" placeholder="Nombre de la estacion" ><br>           
+            <label for="estacion">Estacion</label>
+            <input type="text" class="form-control" name="estacion" placeholder="Estacion" ><br>           
             <label for="descripcion">Descripción</label>
-            <input type="text" class="form-control" name="descripcion" placeholder="Descripcion de la ruta" > <br>           
-            <input type="text" class="form-control" name="latitud" placeholder="Valor de la latitud" > <br>           
-            <input type="text" class="form-control" name="longuitud" placeholder="Valor de la longuitud" > <br>           
-            <input type="submit" class="form-control" name="postSubmit" value="Aceptar"/><br>           
+            <input type="text" class="form-control" name="descripcion" placeholder="Descripcion ruta" > <br>           
+            <input type="text" class="form-control" name="latitud" placeholder="Latitud" > <br>           
+            <input type="text" class="form-control" name="longuitud" placeholder="Longitud" > <br>           
+            <input type="submit" class="form-control" name="postSubmit" value="Guardar"/><br>           
     </form>
 </body>
 </html>  

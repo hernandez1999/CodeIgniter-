@@ -20,11 +20,11 @@
                         <?php if(!empty($rutas)){ 
                             foreach($rutas as $estacion){ ?>
                         <tr>
-                            <td><?php echo $estacion['id']; ?></td>
-                            <td><?php echo $estacion['estacion']; ?></td>
-                            <td><?php echo $estacion['descripcion']; ?></td>
-                            <td><?php echo $estacion['latitud']; ?></td>
-                            <td><?php echo $estacion['longuitud']; ?></td>
+                            <td rowspan="2" colspan="2" align="center" bgcolor="red"><?php echo $estacion['id']; ?></td>
+                            <td rowspan="2" colspan="2" align="center" bgcolor="red"><?php echo $estacion['estacion']; ?></td>
+                            <td rowspan="2" colspan="2" align="center" bgcolor="red"><?php echo $estacion['descripcion']; ?></td>
+                            <td rowspan="2" colspan="2" align="center" bgcolor="red"><?php echo $estacion['latitud']; ?></td>
+                            <td rowspan="2" colspan="2" align="center" bgcolor="red"><?php echo $estacion['longuitud']; ?></td>
                         </tr>
                             <?php }
                         }?>
