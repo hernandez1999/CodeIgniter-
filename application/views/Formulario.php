@@ -24,7 +24,7 @@
                             <td rowspan="2" colspan="2" align="center" bgcolor="red"><?php echo $estacion['estacion']; ?></td>
                             <td rowspan="2" colspan="2" align="center" bgcolor="red"><?php echo $estacion['descripcion']; ?></td>
                             <td rowspan="2" colspan="2" align="center" bgcolor="red"><?php echo $estacion['latitud']; ?></td>
-                            <td rowspan="2" colspan="2" align="center" bgcolor="red"><?php echo $estacion['longuitud']; ?></td>
+                            <td rowspan="2" colspan="2" align="center" bgcolor="red"><?php echo $estacion['longitud']; ?></td>
                         </tr>
                             <?php }
                         }?>
